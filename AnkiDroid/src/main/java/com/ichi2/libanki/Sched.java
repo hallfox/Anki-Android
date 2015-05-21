@@ -111,7 +111,6 @@ public class Sched {
         _updateCutoff();
     }
 
-
     /**
      * Pop the next card from the queue. None if finished.
      */

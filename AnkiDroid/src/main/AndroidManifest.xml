@@ -276,6 +276,13 @@
             </intent-filter>
         </receiver>
 
+        <!-- Receiver for Pebble watch -->
+        <receiver android:name="com.ichi2.ishi.Receiver" >
+            <intent-filter>
+                <action android:name="com.getpebble.action.app.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
         <activity
             android:name="com.ichi2.anki.multimediacard.activity.EditFieldActivity"
             android:configChanges="keyboardHidden|orientation|locale|screenSize"

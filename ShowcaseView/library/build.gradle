@@ -30,8 +30,11 @@ apply plugin: 'maven'
 dependencies {
     repositories {
         mavenCentral()
+        maven { url "https://oss.sonatype.org/content/groups/public/" }
     }
     compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.getpebble:pebblekit:2.6.0'
+    compile 'org.jsoup:jsoup:1.8.1'
 }
 
 android {
